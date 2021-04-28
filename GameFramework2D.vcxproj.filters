@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="GameFramework2D">
+      <UniqueIdentifier>{9f3ec04a-fea0-44d8-a86e-629feec5b7b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WinMain">
+      <UniqueIdentifier>{ce3a7470-9981-48e7-92f9-ebef140444f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame">
+      <UniqueIdentifier>{ce5b6d22-f989-4f22-81fd-803eae8974cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\GameNode">
+      <UniqueIdentifier>{e20d0b3f-3940-445e-a65d-2ffe13bcc8b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\유틸">
+      <UniqueIdentifier>{af879b23-70ee-42d9-9d44-350faa3d6f52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\매니져">
+      <UniqueIdentifier>{17f7c3ea-b2ec-4227-8115-b8ad353939d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\INI데이터">
+      <UniqueIdentifier>{12cc85fd-24bc-49e4-a402-17a53faa8122}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\로딩">
+      <UniqueIdentifier>{1e3f18f2-42de-49eb-bed2-5f6eaea6cd30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\매니져\이미지">
+      <UniqueIdentifier>{d16fac69-192e-4230-a05f-483426615aba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\유틸\체력바">
+      <UniqueIdentifier>{29a1a1ad-0d87-4fb8-a6ad-03d263e7f949}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\매니져\GDI+">
+      <UniqueIdentifier>{561899f7-ca87-49d7-a7d7-b5de1877990f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="commonMacroFunction.h">
+      <Filter>GameFramework2D\유틸</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>MainGame\GameNode</Filter>
+    </ClInclude>
+    <ClInclude Include="mainGame.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>GameFramework2D\매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="keyManager.h">
+      <Filter>GameFramework2D\매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="randomFunction.h">
+      <Filter>GameFramework2D\유틸</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>GameFramework2D\매니져\이미지</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>GameFramework2D\유틸</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneManager.h">
+      <Filter>GameFramework2D\매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="progressBar.h">
+      <Filter>GameFramework2D\유틸\체력바</Filter>
+    </ClInclude>
+    <ClInclude Include="iniData.h">
+      <Filter>GameFramework2D\INI데이터</Filter>
+    </ClInclude>
+    <ClInclude Include="soundManager.h">
+      <Filter>GameFramework2D\매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="loading.h">
+      <Filter>GameFramework2D\로딩</Filter>
+    </ClInclude>
+    <ClInclude Include="playerData.h">
+      <Filter>GameFramework2D\INI데이터</Filter>
+    </ClInclude>
+    <ClInclude Include="loadingScene.h">
+      <Filter>GameFramework2D</Filter>
+    </ClInclude>
+    <ClInclude Include="timeManager.h">
+      <Filter>GameFramework2D\매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="imageManager.h">
+      <Filter>GameFramework2D\매니져\이미지</Filter>
+    </ClInclude>
+    <ClInclude Include="gdipImage.h">
+      <Filter>GameFramework2D\매니져\GDI+</Filter>
+    </ClInclude>
+    <ClInclude Include="gdipManager.h">
+      <Filter>GameFramework2D\매니져\GDI+</Filter>
+    </ClInclude>
+    <ClInclude Include="mapToolScene.h">
+      <Filter>GameFramework2D</Filter>
+    </ClInclude>
+    <ClInclude Include="tileNode.h">
+      <Filter>GameFramework2D</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="winMain.cpp">
+      <Filter>WinMain</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>WinMain</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>MainGame\GameNode</Filter>
+    </ClCompile>
+    <ClCompile Include="mainGame.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="keyManager.cpp">
+      <Filter>GameFramework2D\매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="randomFunction.cpp">
+      <Filter>GameFramework2D\유틸</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>GameFramework2D\매니져\이미지</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp">
+      <Filter>GameFramework2D\유틸</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneManager.cpp">
+      <Filter>GameFramework2D\매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="progressBar.cpp">
+      <Filter>GameFramework2D\유틸\체력바</Filter>
+    </ClCompile>
+    <ClCompile Include="iniData.cpp">
+      <Filter>GameFramework2D\INI데이터</Filter>
+    </ClCompile>
+    <ClCompile Include="soundManager.cpp">
+      <Filter>GameFramework2D\매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="loading.cpp">
+      <Filter>GameFramework2D\로딩</Filter>
+    </ClCompile>
+    <ClCompile Include="playerData.cpp">
+      <Filter>GameFramework2D\INI데이터</Filter>
+    </ClCompile>
+    <ClCompile Include="loadingScene.cpp">
+      <Filter>GameFramework2D</Filter>
+    </ClCompile>
+    <ClCompile Include="timeManager.cpp">
+      <Filter>GameFramework2D\매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="imageManager.cpp">
+      <Filter>GameFramework2D\매니져\이미지</Filter>
+    </ClCompile>
+    <ClCompile Include="gdipImage.cpp">
+      <Filter>GameFramework2D\매니져\GDI+</Filter>
+    </ClCompile>
+    <ClCompile Include="gdipManager.cpp">
+      <Filter>GameFramework2D\매니져\GDI+</Filter>
+    </ClCompile>
+    <ClCompile Include="mapToolScene.cpp">
+      <Filter>GameFramework2D</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
